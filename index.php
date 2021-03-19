@@ -16,7 +16,7 @@
 
                 height:100%;
 
-                background: rgba(0, 0, 0, 0) url("./images/maintenance(1).jpg") fixed no-repeat center center / 80% auto;
+                background: rgba(0, 0, 0, 0) url("maintenance(1).jpg") fixed no-repeat center center / 80% auto;
 
             }
 
