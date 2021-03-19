@@ -7,6 +7,7 @@
            padding:0;
            margin:0;
            background-color: aliceblue;
+           font-family:aerial;
        }
 div {
     position: fixed;
