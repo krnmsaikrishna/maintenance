@@ -4,7 +4,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no"/>
 <title>Link Redirector</title>
+<script>
+function rotator(){
+var url = (window.location.search).replace("?p=window.history.previous.href&link=");
+window.location.href = url;
+} 
+</script>
 </head>
-<body onload='javascript:window.location.href=(window.location.search).replace("?p=window.history.previous.href&link=")'>
+<body onload='rotator()'>
 </body>
 </html>
