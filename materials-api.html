@@ -5,12 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no"/>
 <title>Link Redirector</title>
 <script>
-function rotator(){
-var url = (window.location.search).replace("?p=window.history.previous.href&link=");
-window.location.href = url;
+function link_rotator(){
+var link = window.location.search;
+link = link.replace("?p=window.history.previous.href&link=","");
+window.location.href = link;
 } 
 </script>
 </head>
-<body onload='rotator()'>
+<body onload="link_rotator()">
 </body>
 </html>
